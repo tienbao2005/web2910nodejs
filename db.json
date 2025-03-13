@@ -1,0 +1,108 @@
+{
+  "movies": [
+    {
+      "namemove": "Siêu Nhân Gao",
+      "describe": "có mô tả",
+      "image": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/01/top-phim-sieu-nhan-hay-nhat-1-1.jpg",
+      "linkvideo": "https://www.youtube.com/embed/2FT6NXGqgF8?si=tv-b_gGO6KViOd38",
+      "view": "5",
+      "categorys": "Siêu Nhân",
+      "id": 3
+    },
+    {
+      "namemove": "Anh Hùng Trái Đất",
+      "describe": "có mô tả",
+      "image": "https://phim33.tv/upload/images/2018/01/anh-hung-trai-dat-2015-big.jpg",
+      "linkvideo": "https://www.youtube.com/embed/-348AkS3d5k?si=9wV3gS0D7WbG2xfG",
+      "view": "5",
+      "categorys": "Siêu Nhân",
+      "id": 4
+    },
+    {
+      "namemove": "Siêu Nhân Gao",
+      "describe": "có mô tả",
+      "image": "https://toigingiuvedep.vn/wp-content/uploads/2022/03/anh-sieu-nhan-den.jpg",
+      "linkvideo": "https://www.youtube.com/embed/MOEr3H2oI0k?si=N5jeiZ9ZaXi1XklR",
+      "view": "50",
+      "categorys": "Siêu Nhân",
+      "id": 5
+    },
+    {
+      "namemove": "Tôm Và jly",
+      "describe": "có mô tả",
+      "image": "https://cdn.sforum.vn/sforum/wp-content/uploads/2023/06/phim-hoat-hinh-tom-va-jerry-thumb.jpg",
+      "linkvideo": "https://www.youtube.com/embed/kP9TfCWaQT4?si=RTcl5MT4a6Ou4ixB",
+      "view": "77",
+      "categorys": "Phim Hoạt Hình",
+      "id": 6
+    },
+    {
+      "namemove": "World of Tomorrow",
+      "describe": "có mô tả",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2021/03/WOT-blue.jpg",
+      "linkvideo": "https://www.youtube.com/embed/4PUIxEWmsvI?si=fXgj90cwKXLcHvXd",
+      "view": "7",
+      "categorys": "Phim Hoạt Hình",
+      "id": 7
+    },
+    {
+      "namemove": "Độc Đạo",
+      "describe": "có mô tả",
+      "image": "https://bazaarvietnam.vn/wp-content/uploads/2022/12/harper-bazaar-nhung-bo-phim-canh-sat-hinh-su-hay-nhat-viet-nam-5-e1670767142153.jpeg",
+      "linkvideo": "https://www.youtube.com/embed/kxV8IMwr8NE?si=r1YOxkmL1MiaRpEH",
+      "view": "1",
+      "categorys": "Phim Hành Động",
+      "id": 8
+    },
+    {
+      "namemove": "Độc Đạo",
+      "describe": "có mô tả",
+      "image": "https://bna.1cdn.vn/2024/09/04/image(1).png",
+      "linkvideo": "https://www.youtube.com/embed/aDy-veB_T50?si=swGhdN1xO6hHy6bT",
+      "view": "3",
+      "categorys": "Phim Hành Động",
+      "id": 9
+    },
+    {
+      "namemove": "Đại Gia Chân Đất",
+      "describe": "có mô tả",
+      "image": "https://i.ytimg.com/vi/d4t3wxxdSNg/maxresdefault.jpg",
+      "linkvideo": "https://www.youtube.com/embed/K_-8bRQeIrU?si=fcjfeiMNc_vxy_TO",
+      "view": "3",
+      "categorys": "Phim Hài",
+      "id": 10
+    },
+    {
+      "namemove": "Độc Đạo 2",
+      "describe": "có mô tả",
+      "image": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/01/top-phim-sieu-nhan-hay-nhat-1-1.jpg",
+      "linkvideo": "https://www.youtube.com/embed/K_-8bRQeIrU?si=fcjfeiMNc_vxy_TO",
+      "view": "2",
+      "categorys": "Phim Hài",
+      "id": 11
+    }
+  ],
+  "users": [],
+  "categorys": [
+    {
+      "namecategory": "Phim Hoạt Hình",
+      "image": "https://i.ytimg.com/vi/RIliP3Nskf8/maxresdefault.jpg",
+      "id": 1
+    },
+    {
+      "namecategory": "Siêu Nhân",
+      "image": "https://toigingiuvedep.vn/wp-content/uploads/2022/03/hinh-anh-hinh-nen-sieu-nhan-gao-cute.jpg",
+      "id": 2
+    },
+    {
+      "namecategory": "Phim Hành Động",
+      "image": "https://tungtang.com.vn/blog/wp-content/uploads/2021/05/top-10-phim-hanh-dong-hay-tung-tang-15-1024x576.jpg",
+      "id": 3
+    },
+    {
+      "namecategory": "Phim Hài",
+      "image": "https://i.ytimg.com/vi/hLD-Y_kFN2w/maxresdefault.jpg",
+      "id": 4
+    }
+  ]
+}

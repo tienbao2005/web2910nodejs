@@ -1,0 +1,207 @@
+/* Thiết lập kiểu chữ và khoảng cách */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #234471;
+     overflow-x: hidden;  
+     width: 100%;        /* Chiếm toàn bộ màn hình */
+    max-width: 100%;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+}
+
+/* Định dạng header */
+header {
+    /* color: white; */
+    /* text-align: center; */
+    
+   
+    width: 100%;
+    
+}
+iframe{
+    /* margin-left: 10px; */
+    margin-right: 80px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff5733;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff5733; 
+}
+.h5{
+    font-family :'Times New Roman', Times, serif;
+    
+}
+.header-top{
+    color: rgb(156, 223, 98);
+    background-color:#234471;
+    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  transition: background-color 0.3s ease;
+}
+.header-top:hover{
+    background-color: #222222;
+
+}
+.header-top-right {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin-left: 150px;
+}
+.search-input {
+    width: 350px;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+.header-top-left {
+    margin-left: 200px;
+    margin-right: 300px;
+    }
+    
+.header-bottom{
+    background-color: #222222;
+    width: 100%;
+    height: 50px;
+    
+    align-items: center;         /* Căn giữa theo chiều dọc */
+    justify-content: center; 
+}
+
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 130px;
+    
+    /* text-align: center; */
+    /* background-color: #444; */
+}
+header ul li {
+    display: inline-block;
+   
+ 
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 16px;
+    display: inline-block;
+    /* text-decoration: none; */
+}
+
+header ul li a:hover {
+   
+    background-color: #666;
+}
+/* Phần Main */
+main {
+    /* display: grid; */
+   
+    /* padding: 20px; */
+    width: 100%;
+    height: auto;
+   justify-content: center;
+   align-items: center;
+   /* text-align: center; */
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.movies-hot{
+    margin: 40px 50px;
+    /* border: 5px ridge rgb(8, 131, 18); */
+    width: 88%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+/* Phim Hot & Phim Phổ Biến */
+.movies {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    justify-content: center;
+  
+}
+
+.movie {
+    text-align: center;
+    background: #222020;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: 190px;
+    margin-top: 20px;
+
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+/* Video nổi bật */
+.featured-video {
+    display: grid;
+    justify-content: center;
+}
+
+.trailer {
+    width: 1200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 500px;
+
+    
+}
+
+/* Nút Xem Thêm */
+.btn-load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff5733;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-load-more:hover {
+    background-color: #e04e2b;
+}
+
+
+
+/* Thiết lập responsive cho trang */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.btn {
+    text-decoration: none;
+}
